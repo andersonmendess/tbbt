@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
 const Center = styled.div`
-  width: 100%;
   padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex: 1 1;
+  flex-wrap: wrap;
 `
 
 const MinTitle = styled.span`
@@ -22,8 +23,10 @@ const Title = styled.span`
 `
 
 const CenteredContent = styled.div`
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0 auto;
+  width: 100%;
+
 `
 
 const VideoArea = styled.div`
@@ -33,7 +36,8 @@ const VideoArea = styled.div`
   padding: 5px;
   border-radius: 3px;
 
-  max-width: 700px;
+  max-width: 720px;
+  width: 100%;
 
   hr {
     margin-top: 10px;

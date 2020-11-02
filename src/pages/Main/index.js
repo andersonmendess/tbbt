@@ -4,29 +4,28 @@ import ListView from "../../components/ListView"
 
 import {Center, Title, CenteredContent} from "./CenterTitle";
 
-import getAll from "../../data/temp1";
+import {getAll} from "../../data/temp1";
 
+import state from "../../state";
 
-import {
-  Link
-} from "react-router-dom";
 
 
 function Main(props) {
 
-  const all = [getAll()];
+  const all = getAll();
 
-
+  const [ episode, setEpisode ] = state('episode');
+  const [ season, setSeason ] = state('season');
 
   if(props.match.params.season) {
     return (
       <CenteredContent>
         <Center>
           <Title>
-          Episódios disponiveis
+          Episódios disponiveis {episode}
           </Title>
         </Center>
-        <ListView items={all[0].videos} match={props.match} />
+        <ListView items={all[props.match.params.season - 1].videos} match={props.match} />
       </CenteredContent>
     );
   }

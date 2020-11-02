@@ -4,18 +4,23 @@ import {Center, Title, CenteredContent, VideoArea, MinTitle, Actions, ActionButt
 
 import Divider from "../../components/Divider"
 
+import EpList from "../../components/EpList";
+
 import nextIcon from "../../assets/next-ep.png";
 import prevIcon from "../../assets/back-ep.png";
-import downloadIcon from "../../assets/download.png";
+import fullScreenIcon from "../../assets/full-screen.png";
 import backlistIcon from "../../assets/back-list.png";
 
-import getAll from "../../data/temp1";
+import {getAll} from "../../data/temp1";
+import { Link } from 'react-router-dom';
 
 function Main(props) {
-  const videos = getAll().videos;
 
   const ep = props.match.params.episode;
   const season = props.match.params.season;
+
+  const videos = getAll()[season - 1].videos;
+
 
   const videoRef = createRef();
 
@@ -44,6 +49,7 @@ function Main(props) {
 }, false);
   return (
     <CenteredContent>
+
       <Center>
         <VideoArea>
         <video key={video.url} ref={videoRef} autoPlay width="100%"controls disablePictureInPicture controlsList="nodownload">
@@ -74,9 +80,11 @@ function Main(props) {
           </ActionButton>
         </div>
 
-        <ActionButton>
-            <img src={downloadIcon} width="30px" alt="next" />
-            <span>Baixar</span>
+        <ActionButton onClick={ async () => {
+          await videoRef.current.requestFullscreen({ navigationUI: "hide"});
+        }}>
+            <img src={fullScreenIcon} width="30px" alt="next" />
+            <span>Tela cheia</span>
           </ActionButton>
 
 
@@ -84,7 +92,10 @@ function Main(props) {
 
         </VideoArea>
         
+
+      <EpList items={videos} playing={video} setPlaying={(id) => setEpisode(id)} match={props.match} />
       </Center>
+
     </CenteredContent>
   );
 }

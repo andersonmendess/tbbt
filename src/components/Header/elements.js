@@ -20,7 +20,7 @@ const Content = styled.div`
 
 const Icon = styled.img`
   padding: 0 12px;
-  height: 100%;
+  cursor: pointer;
 `
 
 const HeaderText = styled.span`

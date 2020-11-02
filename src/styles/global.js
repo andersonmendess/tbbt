@@ -33,4 +33,27 @@ a:link {
   text-decoration: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #1D1D1D; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #303030; 
+  border-radius: 10px;
+  margin: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444444; 
+}
+
 `;

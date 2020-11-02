@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, List, ListItem } from "./elements";
-import { useHistory } from "react-router-dom";
 import {
   Link
 } from "react-router-dom";
 function ListView(props) {
-
-  const history = useHistory();
 
   if(!props.items) {
     return <></>;
@@ -18,7 +15,7 @@ function ListView(props) {
     <Container>
       <List>
         {props.items.map((movie) => (
-          <Link to={isEp ? `/seasons/${isEp}/episodes/${movie.id}` : `/seasons/${movie.id}`}>
+          <Link key={movie.id} to={isEp ? `/seasons/${isEp}/episodes/${movie.id}` : `/seasons/${movie.id}`}>
             <ListItem
             key={movie.id}
             onClick={() => {

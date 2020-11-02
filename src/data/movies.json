@@ -1,91 +1,214 @@
-{
-  "id": 1,
-  "name": "1 Temporada",
-  "videos": [
-      {
-          "id": 1,
-          "title": "1 - Piloto.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/1 - Piloto.mp4"
-      },
-      {
-          "id": 2,
-          "title": "2 - A Hipótese do Grande Farelo.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/2 - A Hipótese do Grande Farelo.mp4"
-      },
-      {
-          "id": 3,
-          "title": "3 - O Resultado Coturno Peludo.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/3 - O Resultado Coturno Peludo.mp4"
-      },
-      {
-          "id": 4,
-          "title": "4 - O Efeito do Peixe Luminoso.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/4 - O Efeito do Peixe Luminoso.mp4"
-      },
-      {
-          "id": 5,
-          "title": "5 - O Postulado do Hambúrguer.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/5 - O Postulado do Hambúrguer.mp4"
-      },
-      {
-          "id": 6,
-          "title": "6  - O Paradigma da Terra Média.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/6  - O Paradigma da Terra Média.mp4"
-      },
-      {
-          "id": 7,
-          "title": "7 - O Paradoxo da Torta.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/7 - O Paradoxo da Torta.mp4"
-      },
-      {
-          "id": 8,
-          "title": "8 - A Experiência do Gafanhoto.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/8 - A Experiência do Gafanhoto.mp4"
-      },
-      {
-          "id": 9,
-          "title": "9 - A Polarização Cooper-Hofstadter.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/9 - A Polarização Cooper-Hofstadter.mp4"
-      },
-      {
-          "id": 10,
-          "title": "10 - A Decadência Loobenfeld.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/10 - A Decadência Loobenfeld.mp4"
-      },
-      {
-          "id": 11,
-          "title": "11 - A Anomalia da Melhor Panqueca.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/11 - A Anomalia da Melhor Panqueca.mp4"
-      },
-      {
-          "id": 12,
-          "title": "12 - A Derualidade De Jerusalém.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/12 - A Derualidade De Jerusalém.mp4"
-      },
-      {
-          "id": 13,
-          "title": "13 - A Conjetura da Bat Jarra.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/13 - A Conjetura da Bat Jarra.mp4"
-      },
-      {
-          "id": 14,
-          "title": "14 - A Anaquilação do Nerdvana.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/14 - A Anaquilação do Nerdvana.mp4"
-      },
-      {
-          "id": 15,
-          "title": "15 - A Indeterminância da Mulher Não Judia.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/15 - A Indeterminância da Mulher Não Judia.mp4"
-      },
-      {
-          "id": 16,
-          "title": "16 - A Reação ao Amendoim.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/16 - A Reação ao Amendoim.mp4"
-      },
-      {
-          "id": 17,
-          "title": "17 - O Fator Tangerina.mp4",
-          "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/17 - O Fator Tangerina.mp4"
-      }
-  ]
-}
+[
+  {
+      "id": 1,
+      "name": "1 Temporada",
+      "videos": [
+          {
+              "id": 1,
+              "title": "1 - Piloto.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/1 - Piloto.mp4"
+          },
+          {
+              "id": 2,
+              "title": "2 - A Hipótese do Grande Farelo.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/2 - A Hipótese do Grande Farelo.mp4"
+          },
+          {
+              "id": 3,
+              "title": "3 - O Resultado Coturno Peludo.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/3 - O Resultado Coturno Peludo.mp4"
+          },
+          {
+              "id": 4,
+              "title": "4 - O Efeito do Peixe Luminoso.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/4 - O Efeito do Peixe Luminoso.mp4"
+          },
+          {
+              "id": 5,
+              "title": "5 - O Postulado do Hambúrguer.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/5 - O Postulado do Hambúrguer.mp4"
+          },
+          {
+              "id": 6,
+              "title": "6  - O Paradigma da Terra Média.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/6  - O Paradigma da Terra Média.mp4"
+          },
+          {
+              "id": 7,
+              "title": "7 - O Paradoxo da Torta.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/7 - O Paradoxo da Torta.mp4"
+          },
+          {
+              "id": 8,
+              "title": "8 - A Experiência do Gafanhoto.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/8 - A Experiência do Gafanhoto.mp4"
+          },
+          {
+              "id": 9,
+              "title": "9 - A Polarização Cooper-Hofstadter.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/9 - A Polarização Cooper-Hofstadter.mp4"
+          },
+          {
+              "id": 10,
+              "title": "10 - A Decadência Loobenfeld.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/10 - A Decadência Loobenfeld.mp4"
+          },
+          {
+              "id": 11,
+              "title": "11 - A Anomalia da Melhor Panqueca.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/11 - A Anomalia da Melhor Panqueca.mp4"
+          },
+          {
+              "id": 12,
+              "title": "12 - A Derualidade De Jerusalém.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/12 - A Derualidade De Jerusalém.mp4"
+          },
+          {
+              "id": 13,
+              "title": "13 - A Conjetura da Bat Jarra.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/13 - A Conjetura da Bat Jarra.mp4"
+          },
+          {
+              "id": 14,
+              "title": "14 - A Anaquilação do Nerdvana.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/14 - A Anaquilação do Nerdvana.mp4"
+          },
+          {
+              "id": 15,
+              "title": "15 - A Indeterminância da Mulher Não Judia.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/15 - A Indeterminância da Mulher Não Judia.mp4"
+          },
+          {
+              "id": 16,
+              "title": "16 - A Reação ao Amendoim.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/16 - A Reação ao Amendoim.mp4"
+          },
+          {
+              "id": 17,
+              "title": "17 - O Fator Tangerina.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/1-temporada/17 - O Fator Tangerina.mp4"
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "name": "2 Temporada",
+      "videos": [
+          {
+              "id": 1,
+              "title": "1 - O Paradigma do Peixe Podre.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/1 - O Paradigma do Peixe Podre.mp4"
+          },
+          {
+              "id": 2,
+              "title": "2 - A Topologia do Alçapão.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/2 - A Topologia do Alçapão.mp4"
+          },
+          {
+              "id": 3,
+              "title": "3 - A Sublimação Bárbara.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/3 - A Sublimação Bárbara.mp4"
+          },
+          {
+              "id": 4,
+              "title": "4 - A Equivalência do Grifo.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/4 - A Equivalência do Grifo.mp4"
+          },
+          {
+              "id": 5,
+              "title": "5 - A Alternativa Euclidiana.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/5 - A Alternativa Euclidiana.mp4"
+          },
+          {
+              "id": 6,
+              "title": "6 - O Teorema Cooper-Nowitzki.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/6 - O Teorema Cooper-Nowitzki.mp4"
+          },
+          {
+              "id": 7,
+              "title": "7 - A Polarização da Pescaria de Sutiã.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/7 - A Polarização da Pescaria de Sutiã.mp4"
+          },
+          {
+              "id": 8,
+              "title": "8 - A Expansão do Lagarto-Spock.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/8 - A Expansão do Lagarto-Spock.mp4"
+          },
+          {
+              "id": 9,
+              "title": "9 - A Triangulação do Aspargo Branco.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/9 - A Triangulação do Aspargo Branco.mp4"
+          },
+          {
+              "id": 10,
+              "title": "10 - O Enigma de Vartabedian.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/10 - O Enigma de Vartabedian.mp4"
+          },
+          {
+              "id": 11,
+              "title": "11 - A Hipótese do Kit de Banho como Presente.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/11 - A Hipótese do Kit de Banho como Presente.mp4"
+          },
+          {
+              "id": 12,
+              "title": "12 - A Instabilidade do Robô Assassino.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/12 - A Instabilidade do Robô Assassino.mp4"
+          },
+          {
+              "id": 13,
+              "title": "13 - O Algoritmo da Amizade.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/13 - O Algoritmo da Amizade.mp4"
+          },
+          {
+              "id": 14,
+              "title": "14 - A Permeabilidade Financeira.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/14 - A Permeabilidade Financeira.mp4"
+          },
+          {
+              "id": 15,
+              "title": "15 - A Capacitância Maternal.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/15 - A Capacitância Maternal.mp4"
+          },
+          {
+              "id": 16,
+              "title": "16 - A Saturação da Almofada.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/16 - A Saturação da Almofada.mp4"
+          },
+          {
+              "id": 17,
+              "title": "17 - A Desconexão do Exterminador.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/17 - A Desconexão do Exterminador.mp4"
+          },
+          {
+              "id": 18,
+              "title": "18 - A Nanopartícula da Música de Trabalho.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/18 - A Nanopartícula da Música de Trabalho.mp4"
+          },
+          {
+              "id": 19,
+              "title": "19 - A Justaposição da Prostituta Morta.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/19 - A Justaposição da Prostituta Morta.mp4"
+          },
+          {
+              "id": 20,
+              "title": "20 - O Isótopo Hofstadter.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/20 - O Isótopo Hofstadter.mp4"
+          },
+          {
+              "id": 21,
+              "title": "21 - A Renormalização Las Vegas.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/21 - A Renormalização Las Vegas.mp4"
+          },
+          {
+              "id": 22,
+              "title": "22 - A Turbulência dos Materiais Confidenciais.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/22 - A Turbulência dos Materiais Confidenciais.mp4"
+          },
+          {
+              "id": 23,
+              "title": "23 - A Expedição Monopolar.mp4",
+              "url": "https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/gr2wroqhmyih/b/storage1/o/2-temporada/23 - A Expedição Monopolar.mp4"
+          }
+      ]
+  }
+]

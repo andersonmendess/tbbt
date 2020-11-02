@@ -1,34 +1,37 @@
 import styled, { css } from 'styled-components'
 
 const Container = styled.div`
-  background: #0f0f0f;
-  height: 400px;
-  width: 400px;
-  margin: 20px;
-  padding: 10px;
+  background: #1D1D1D;
+  max-width: 400px;
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
   border-radius: 5px;
+  margin: 10px;
+  width: 100%;
+
 `
 
 const Title = styled.h1`
     color: #efefef;
-    padding-left: 10px;
+    padding: 10px;
 `
 
 const List = styled.ul`
-    padding: 20px;
-    padding-top: 0px;
+    padding: 10px;
 `
 
 const ListItem = styled.li`
+    user-select: none;
     cursor: pointer;
-    padding: 2px;
-    font-size: 17px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 600;
+
+    white-space: nowrap;
 
     transition: color 0.2s ease-in-out;
 
-    :hover {
-        color: white;
-    }
 
     ${props => props.playing && css`
     color: #9bff96;
