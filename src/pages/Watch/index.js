@@ -36,6 +36,11 @@ function Main(props) {
     setVideo(videos.find((video) => video.id === episode));
   }, [episode, videos]);
 
+  if(!video) {
+    window.location.href = "/"
+    return;
+  }
+
   let title = ""
 
   if(video.title){
@@ -80,7 +85,7 @@ function Main(props) {
               <ActionButton
                 onClick={() => {
                   if(canPrev()){
-                    props.history.push(`${episode - 1}`)
+                    props.history.replace(`${episode - 1}`)
                     setEpisode(episode - 1);
                   }
                 }}
@@ -92,7 +97,7 @@ function Main(props) {
                 onClick={() => {
 
                   if(canNext()){
-                    props.history.push(`${episode + 1}`)
+                    props.history.replace(`${episode + 1}`)
                     setEpisode(episode + 1);
                   }
 
