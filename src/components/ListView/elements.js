@@ -18,7 +18,7 @@ const ListItem = styled.li`
     padding: 7px;
     font-size: 17px;
     text-align: center;
-    max-width: 440px;
+    max-width: 540px;
     margin: 6px auto;
 
     border: 1px solid transparent;
