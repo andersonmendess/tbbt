@@ -77,7 +77,9 @@ function Main(props) {
           <Divider />
 
           <Actions>
-            <ActionButton>
+            <ActionButton onClick={() => {
+                  props.history.goBack();
+                }}>
               <img src={backlistIcon} width="30px" alt="next" />
               <span>Voltar</span>
             </ActionButton>
