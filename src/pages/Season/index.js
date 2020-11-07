@@ -32,7 +32,7 @@ function Main(props) {
     <CenteredContent>
       <Center>
         <Title>
-          Temporadas disponiveis
+          Temporadas
         </Title>
       </Center>
       <ListView items={all.flatMap(e => (

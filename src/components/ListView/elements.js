@@ -16,9 +16,9 @@ const List = styled.ul`
 const ListItem = styled.li`
     cursor: pointer;
     padding: 7px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-    max-width: 400px;
+    max-width: 440px;
     margin: 6px auto;
 
     border: 1px solid transparent;

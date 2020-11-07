@@ -15,22 +15,14 @@ const ListView = (props) => {
 
   const to = (movie) => isEp ? `/seasons/${isEp}/episodes/${movie.id}` : `/seasons/${movie.id}`;
 
-  const hasAction = props.noLink;
-
-  console.log(props)
-
   return (
     <Container>
       <List>
         {props.items.map((movie) => (
-          <Link key={movie.id} to={hasAction ? () => {} : () => to(movie)}>
+          <Link key={movie.id} to={() => to(movie)}>
             <ListItem
             key={movie.id}
-            onClick={() => {
-              if(hasAction){
-                props.onClick(movie);
-              }
-            }}>
+            >
             {movie.title}
           </ListItem>
           </Link>

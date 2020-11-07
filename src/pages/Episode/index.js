@@ -15,7 +15,7 @@ function Main(props) {
     <CenteredContent>
       <Center>
         <Title>
-        Episódios disponiveis
+        Episódios
         </Title>
       </Center>
       <ListView items={all[props.match.params.season - 1].videos} match={props.match} />
