@@ -15,15 +15,15 @@ const List = styled.ul`
 
 const ListItem = styled.li`
     cursor: pointer;
-    padding: 10px;
-    font-size: 20px;
-    margin: 8px;
+    padding: 7px;
+    font-size: 18px;
     text-align: center;
+    max-width: 400px;
+    margin: 6px auto;
 
     border: 1px solid transparent;
     border-radius: 5px;
     background-color: #1D1D1D;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 
 
     transition: color, background-color 0.1s ease-in-out;

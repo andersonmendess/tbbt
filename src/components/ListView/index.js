@@ -3,7 +3,9 @@ import { Container, List, ListItem } from "./elements";
 import {
   Link
 } from "react-router-dom";
-function ListView(props) {
+
+
+const ListView = (props) => {
 
   if(!props.items) {
     return <></>;
@@ -11,25 +13,23 @@ function ListView(props) {
 
   const isEp = props.match.params.season || false;
 
+  const to = (movie) => isEp ? `/seasons/${isEp}/episodes/${movie.id}` : `/seasons/${movie.id}`;
+
+  const hasAction = props.noLink;
+
+  console.log(props)
+
   return (
     <Container>
       <List>
         {props.items.map((movie) => (
-          <Link key={movie.id} to={isEp ? `/seasons/${isEp}/episodes/${movie.id}` : `/seasons/${movie.id}`}>
+          <Link key={movie.id} to={hasAction ? () => {} : () => to(movie)}>
             <ListItem
             key={movie.id}
             onClick={() => {
-
-              // console.log(props.match);
-
-              // if(props.match.params.season) {
-              //   const season = props.match.params.season;
-
-              //   history.push(`/seasons/${season}/episodes/${movie.id}/`);
-              // } else {
-              //   history.push(`/seasons/${movie.id}/`);
-              // }
-
+              if(hasAction){
+                props.onClick(movie);
+              }
             }}>
             {movie.title}
           </ListItem>

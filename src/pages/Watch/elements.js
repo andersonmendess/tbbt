@@ -35,8 +35,10 @@ const VideoArea = styled.div`
   background-color: #1D1D1D;
   padding: 5px;
   border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 
-  max-width: 720px;
+
+  max-width: 800px;
   width: 100%;
 
   hr {
@@ -62,7 +64,6 @@ const ActionButton = styled.button`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
   cursor: pointer;
 
   span {

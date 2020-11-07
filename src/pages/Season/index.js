@@ -1,31 +1,29 @@
 import React from 'react';
-
 import ListView from "../../components/ListView"
+import {Center, Title, CenteredContent} from "./elements";
+import { isMobile } from 'react-device-detect';
 
-import {Center, Title, CenteredContent} from "./CenterTitle";
-
-import {getAll} from "../../data/temp1";
-
-import state from "../../state";
-
-
+import data from "../../data";
 
 function Main(props) {
 
-  const all = getAll();
+  const all = data.getAll();
 
-  const [ episode, setEpisode ] = state('episode');
-  const [ season, setSeason ] = state('season');
-
-  if(props.match.params.season) {
+  if(isMobile) {
     return (
       <CenteredContent>
         <Center>
           <Title>
-          Episódios disponiveis {episode}
+            Temporadas disponiveis
           </Title>
         </Center>
-        <ListView items={all[props.match.params.season - 1].videos} match={props.match} />
+        <ListView onClick={(movie) => {console.log(movie)}} items={all.flatMap(e => (
+          {
+            "id": e.id,
+            "title": e.name
+          })
+          
+        )} match={props.match} />
       </CenteredContent>
     );
   }

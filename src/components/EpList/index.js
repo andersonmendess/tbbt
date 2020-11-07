@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Title, List, ListItem } from "./elements";
+import { Container, List, ListItem } from "./elements";
 
 function EpList(props) {
   return (

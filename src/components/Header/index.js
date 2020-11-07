@@ -9,13 +9,19 @@ function Header({ history }) {
 
     const isHome = history.location.pathname === "/";
 
-    console.log(history)
+    const paths = history.location.pathname.split("/");
 
-    const title = isHome ? "The Big Bang Theory" : "";
+    let subTitle = "";
+
+    if(paths) {
+      subTitle = `${paths[2]} Temporada`;
+    }
+
+    const title = isHome ? "The Big Bang Theory" : subTitle;
 
   return <Base>
       <Content>
-        <Icon onClick={() => history.goBack()} height={isHome ? "100%" :  "75%"} src={isHome ? icon :  back} />
+        <Icon onClick={() => history.goBack()} height={isHome ? "100%" :  "85%"} src={isHome ? icon :  back} />
         <HeaderText>{title}</HeaderText>
       </Content>
   </Base>
