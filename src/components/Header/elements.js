@@ -11,15 +11,23 @@ const Content = styled.div`
   height: 100%;
   padding: 12px 7px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
   max-width: 960px;
   margin: 0 auto;
+
+
+  div {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    
+  }
 `;
 
 const Icon = styled.img`
-  padding: 0 15px;
+  padding: 0 15px 0 0;
   cursor: pointer;
 `
 

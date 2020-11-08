@@ -3,6 +3,11 @@ import { Base, Content, Icon, HeaderText } from './elements';
 import icon from "./../../assets/atom.png";
 
 import back from "./../../assets/back.png";
+
+import heart from "./../../assets/heart.png";
+import email from "./../../assets/email.png";
+
+
 import { withRouter } from 'react-router-dom';
 
 function Header({ history }) {
@@ -21,8 +26,16 @@ function Header({ history }) {
 
   return <Base>
       <Content>
-        <Icon onClick={() => history.goBack()} height={isHome ? "100%" :  "85%"} src={isHome ? icon :  back} />
+        <div>
+        <Icon onClick={() => history.goBack()} height="100%" src={isHome ? icon :  back} />
         <HeaderText>{title}</HeaderText>
+        </div>
+
+        <div>
+        <Icon onClick={() => window.location.href = "mailto:anderson2000ano@gmail.com"} height="100%" src={email} />
+        <Icon onClick={() => window.location.href = "https://www.paypal.com/donate?hosted_button_id=KZFWY4KC9Z7E6"} height="100%" src={heart} />
+        </div>
+
       </Content>
   </Base>
 }
