@@ -32,7 +32,6 @@ function Header({ history }) {
         </div>
 
         <div>
-        <Icon onClick={() => window.location.href = "mailto:anderson2000ano@gmail.com"} height="100%" src={email} />
         <Icon onClick={() => window.location.href = "https://www.paypal.com/donate?hosted_button_id=KZFWY4KC9Z7E6"} height="100%" src={heart} />
         </div>
 
