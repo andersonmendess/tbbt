@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import ListView from "../../components/ListView"
 
@@ -10,6 +10,10 @@ import data from "../../data";
 function Main(props) {
 
   const all = data.getAll();
+
+  useEffect(() => {
+    document.title = props.match.params.season + " Temporada";
+ }, []);
 
   return (
     <CenteredContent>

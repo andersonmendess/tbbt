@@ -34,7 +34,14 @@ function Main(props) {
 
   useEffect(() => {
     setVideo(videos.find((video) => video.id === episode));
+
   }, [episode, videos]);
+
+  useEffect(() => {
+    if(video.title) {
+      document.title = `${video.title.replace(".mp4", "")} - The Big Bang Theory`;
+    }
+  }, [video]);
 
   if(!video) {
     window.location.href = "/"
