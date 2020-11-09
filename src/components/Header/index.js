@@ -5,7 +5,6 @@ import icon from "./../../assets/atom.png";
 import back from "./../../assets/back.png";
 
 import heart from "./../../assets/heart.png";
-import email from "./../../assets/email.png";
 
 
 import { withRouter } from 'react-router-dom';

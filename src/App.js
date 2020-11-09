@@ -7,7 +7,6 @@ import { BrowserRouter } from "react-router-dom";
 import GlobalStyles from "./styles/global";
 
 function App(props) {
-  console.log(props)
   return (
     <>
       <BrowserRouter>

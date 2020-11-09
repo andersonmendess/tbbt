@@ -12,8 +12,8 @@ function Main(props) {
   const all = data.getAll();
 
   useEffect(() => {
-    document.title = props.match.params.season + " Temporada";
- }, []);
+    document.title = props.match.params.season + " Temporada - The Big Bang Theory";
+ }, [props.match.params.season]);
 
   return (
     <CenteredContent>
