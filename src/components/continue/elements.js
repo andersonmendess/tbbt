@@ -1,19 +1,27 @@
 import styled from 'styled-components'
 
 const Container = styled.div`
-  padding: 10px;
-  padding-top: 20px;
+  padding: 25px;
   display: flex;
   align-content: center;
   justify-items:center;
   align-items:center;
   justify-content: center;
+  cursor: pointer;
   div {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-items:center;
+  }
+
+  img {
+    opacity: 80%;
+  }
+
+  img:hover {
+    opacity: 100%;
   }
   
   p {

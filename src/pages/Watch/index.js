@@ -40,8 +40,14 @@ function Main(props) {
   useEffect(() => {
     if(video.title) {
       document.title = `${video.title.replace(".mp4", "")} - The Big Bang Theory`;
+
+      localStorage.setItem("continue", JSON.stringify({
+        title: video.title.replace(".mp4", ""),
+        season: season,
+        video: video
+      }));
     }
-  }, [video]);
+  }, [video, season]);
 
   if(!video) {
     window.location.href = "/"

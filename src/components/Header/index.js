@@ -26,7 +26,9 @@ function Header({ history }) {
   return <Base>
       <Content>
         <div>
-        <Icon onClick={() => history.goBack()} height="100%" src={isHome ? icon :  back} />
+        <Icon onClick={() => {
+          if(!isHome) history.goBack();
+        }} height="100%" src={isHome ? icon :  back} />
         <HeaderText>{title}</HeaderText>
         </div>
 

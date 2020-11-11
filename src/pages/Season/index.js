@@ -1,8 +1,9 @@
 import React from 'react';
 import ListView from "../../components/ListView"
-import {Center, Title, CenteredContent} from "./elements";
+import {CenteredContent} from "./elements";
 
 import Support from "../../components/support"
+import Continue from "../../components/continue";
 
 
 import data from "../../data";
@@ -13,11 +14,7 @@ function Main(props) {
 
   return (
     <CenteredContent>
-      <Center>
-        <Title>
-          Temporadas
-        </Title>
-      </Center>
+      <Continue/>
       <ListView items={all.flatMap(e => (
         {
           "id": e.id,

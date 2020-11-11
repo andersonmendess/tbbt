@@ -23,7 +23,7 @@ const ListView = (props) => {
             <ListItem
             key={movie.id}
             >
-            {movie.title}
+            {movie.title.replace(".mp4","")}
           </ListItem>
           </Link>
         ))}
