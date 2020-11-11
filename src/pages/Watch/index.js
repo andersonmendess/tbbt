@@ -124,6 +124,7 @@ function Main(props) {
             </div>
 
             <ActionButton
+            id="fs"
               onClick={async () => {
                 await videoRef.current.requestFullscreen({
                   navigationUI: "hide",
