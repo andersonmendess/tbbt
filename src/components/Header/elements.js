@@ -27,7 +27,7 @@ const Content = styled.div`
 `;
 
 const Icon = styled.img`
-  padding: 0 15px 0 0;
+  padding: 0 15px 0 15px;
   cursor: pointer;
 `
 
